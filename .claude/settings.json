@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i 's/case MENU_STATE_HISTORY:/case MENU_STATE_VIEW_HISTORY:/g' App/App_Menu.c)",
+      "Bash(sed -i 's/Delay_Ms\\(10\\);/Delay_ms\\(10\\);/g' Int/Int_Sgm58031.c)",
+      "Bash(python -)",
+      "Bash(\"D:/shangguigu/STM32_MDK/UV4/UV4.exe\" -b \"d:\\\\shangguigu\\\\All_Project\\\\07_\\\\code_pro\\\\water weak detection\\\\project.uvprojx\" -j0 -t \"Target 1\" -o \"d:\\\\shangguigu\\\\All_Project\\\\07_\\\\code_pro\\\\water weak detection\\\\.vscode\\\\uv4_build.log\")",
+      "Bash(echo \"=== exit: $? ===\")",
+      "Bash(\"D:/shangguigu/STM32_MDK/UV4/UV4.exe\" -b \"project.uvprojx\" -j0 -t \"Target 1\" -o \".vscode/uv4.log\")",
+      "Bash(python -c ' *)",
+      "Bash(rm -rf Objects/*.o Objects/*.axf)",
+      "Bash(\"D:/shangguigu/STM32_MDK/UV4/UV4.exe\" -b \"d:\\\\\\\\shangguigu\\\\\\\\All_Project\\\\\\\\07_\\\\\\\\code_pro\\\\\\\\water weak detection\\\\\\\\project.uvprojx\" -j0 -t \"Target 1\" -o build.log)"
+    ],
+    "additionalDirectories": [
+      "D:\\shangguigu\\All_Project\\07_"
+    ]
+  }
+}
